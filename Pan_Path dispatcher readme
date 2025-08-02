@@ -1,0 +1,17 @@
+# Pan–Path Generator Dispatcher
+
+Interactive Jupyter notebook for equitable lamp scheduling on an office floor
+modelled as C⁺ₙ □ Pₘ.
+
+## Features
+* Sliders to pick `n` (lamps per room) and `m` (rooms).
+* “Run Animation” – 4-frame equitable colouring demo.
+* “Start / Stop Dispatcher” – rotates generators in real time.
+* `save_current_preview()` – export the animation to MP4 or GIF.
+
+## Getting Started
+```bash
+git clone https://github.com/<your-user>/<repo>.git
+cd <repo>
+pip install -r requirements.txt   # networkx, matplotlib, ipywidgets
+jupyter lab                       # open Pan_Path-Dispatcher.ipynb
